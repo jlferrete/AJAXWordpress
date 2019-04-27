@@ -1,0 +1,34 @@
+/*
+Theme Name: TwentySixteen-Child;
+Theme URI:
+Version: 1.0.0
+Description:
+Author: Jlferrete
+Author URI:
+Template: twentysixteen
+*/
+
+@import url("../twentysixteen/style.css");
+
+ #buscador-usuarios .user{
+    border: 2px solid black;
+    width: 100%;
+    min-height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#buscador-usuarios .user .imagen{
+    border: 2px solid red;
+    margin: 10px;
+    width: 30%;
+    display: inline-block;
+
+}
+
+#buscador-usuarios .user .description{
+    border: 2px solid blue;
+    margin: 10px;
+    width: 64%;
+    display: inline-block;
+}
